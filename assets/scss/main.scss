@@ -9,12 +9,12 @@ body {
   flex-direction: column;
   min-height: 100vh;
   min-width: 100vh;
-  background-color: $body-bg;
+  background-color: $body-bg;  
   background-image: url("../img/PokeDex\ pic.png");
   background-position: center ;
-  background-size: 1900px 800px;
-}
-
+  background-size: cover;
+  //overflow: hidden;
+} 
 main {
   flex-grow: 1;
 }
@@ -32,7 +32,7 @@ li {
 }
 
 .locked-scroll {
-  height: 90vh;
+  height: 30vh;
   overflow-y: scroll;
 }
 

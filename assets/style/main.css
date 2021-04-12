@@ -10692,7 +10692,7 @@ body {
   background-color: #f2f2f2;
   background-image: url("../img/PokeDex pic.png");
   background-position: center;
-  background-size: 1900px 800px;
+  background-size: cover;
 }
 
 main {
@@ -10712,7 +10712,7 @@ li:hover {
 }
 
 .locked-scroll {
-  height: 90vh;
+  height: 30vh;
   overflow-y: scroll;
 }
 
